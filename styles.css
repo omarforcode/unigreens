@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Modern Navbar with Gradient */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+    
+   
+    .header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 5em;
+    width: 100%;
+    padding: 20px 100px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    }
+    
+    .logo{
+    font-size: 32px;
+    color: green ;
+    text-decoration: none;
+    font-weight: 700;
+    }
+    
+    .navbar a {
+    position: relative;  
+    font-size: 18px;
+    color: green ;
+    font-weight: 500;
+    text-decoration : none;
+    margin-left: 30px;
+    }
+    
+    .navbar a::before {
+    content: '' ;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background : green;
+    transition: .3s;
+    }
+    
+    .navbar a:hover:before {
+      width: 100%;
+    }
+    
+
+
+
+
+.hero-section {
+    background: url('hero-bg1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section h1 {
+    font-size: 3rem;
+    color: #006600;
+}
+.hero-section p {
+    font-size: 1.2rem;
+    color: #004d00;
+}
+
+/* About Section */
+
+
+
+/* Services Section */
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.card-text {
+    color: #555;
+}
+
+/* Contact Section */
+#contact form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+#contact form button {
+    border-radius: 5px;
+}
+
+
+.col-md-5 {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 10px 0;
+}
+
+p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+
+/* Footer */
+footer {
+    background-color: white;
+    color: black;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+}
